@@ -1,26 +1,23 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {DropZone} from "./dropzone";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <header className="App-header">
+                <p style={{marginTop: "136px", marginBottom: "0", paddingBottom: "0", fontSize: 36}}>
+                    Sharing <code>Files</code> with IPFS/Filecoin
+                </p>
+                <p style={{marginTop: "0", paddingTop: "0", fontSize: 36}}>
+                    On BlockChain
+                </p>
+
+                <DropZone/>
+            </header>
+        </div>
+    );
 }
 
 export default App;
