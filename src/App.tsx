@@ -10,6 +10,7 @@ import {DropZone} from "./dropzone";
 import { publicProvider } from 'wagmi/providers/public'
 import { MetaMaskConnector } from 'wagmi/connectors/metaMask'
 import {Profile} from "./Profile";
+import {SearchZone} from "./SearchZone";
 const { chains, provider, webSocketProvider } = configureChains(defaultChains, [
     publicProvider(),
 ])
@@ -36,8 +37,8 @@ function App() {
                         On BlockChain
                     </p>
                     <Profile/>
-
                     <DropZone/>
+                    <SearchZone/>
                 </header>
             </div>
         </WagmiConfig>
