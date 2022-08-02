@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# FileSharing Platform 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+File sharing platform based on IPFS/Filecoin and Polygon chain
+
+Realize peer-to-peer file sharing by recording file data on the chain
+
 
 ## Available Scripts
 
